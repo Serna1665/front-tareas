@@ -29,6 +29,12 @@
               </router-link>
             </li>
           </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <li class="nav-item dropdown">
+              <router-link to="/crearview" class="dropdown-item"> Proyectos
+              </router-link>
+            </li>
+          </div>
         </ul>
       </div>
     </div>
