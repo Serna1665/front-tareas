@@ -64,7 +64,7 @@ export default {
     }
   },
   mounted() {
-    this.getTareas(); // Agregar paréntesis para llamar a la función getTareas
+    this.getTareas(); 
   },
   methods: {
     getTareas() {
@@ -95,10 +95,6 @@ export default {
           console.error('Confirmación rechazada o error en la confirmación');
         });
     },
-    editar(id) {
-      // Redirigir a la página de edición de la tarea con el ID correspondiente
-      this.$router.push({ path: `/editar-tarea/${id}` });
-    }
   }
 }
 </script>
